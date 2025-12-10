@@ -54,7 +54,6 @@ def main():
     # Load dataset
     raw_dataset = load_dataset(
         "cfli/bge-full-data",
-        cache_dir="/data2/embedding_ckpts",
     )
     sampled_dataset = [
         split.shuffle(seed=training_args.seed).select(
