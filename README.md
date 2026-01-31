@@ -1,6 +1,28 @@
 # GIRCSE
 
-Official implementation of **["Let LLMs Speak Embedding Languages: Generative Text Embeddings via Iterative Contrastive Refinement"](https://arxiv.org/abs/2509.24291)**
+[![Conference](https://img.shields.io/badge/ICLR-2026-blue.svg)](https://iclr.cc/)
+[![Paper](https://img.shields.io/badge/arXiv-2509.24291-b31b1b.svg)](https://arxiv.org/abs/2509.24291)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+Official PyTorch implementation of **"Let LLMs Speak Embedding Languages: Generative Text Embeddings via Iterative Contrastive Refinement"**, accepted at **ICLR 2026**.
+
+## 🚀 News
+- **[2026.01]** GIRCSE has been accepted to **ICLR 2026**! 🎉
+- **[2025.09]** Paper released on [arXiv](https://arxiv.org/abs/2509.24291).
+
+---
+
+## 🛠️ Setup
+
+### Prerequisites
+- Python 3.10
+- [Poetry](https://python-poetry.org/) for dependency management
+
+### Installation
+
+1. **Install Poetry** (if not already installed):
+   ```bash
+   curl -sSL [https://install.python-poetry.org](https://install.python-poetry.org) | python3 -
 
 ## Setup
 
