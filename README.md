@@ -3,7 +3,6 @@
 [![Conference](https://img.shields.io/badge/ICLR-2026-blue.svg)](https://iclr.cc/)
 [![Paper](https://img.shields.io/badge/arXiv-2509.24291-b31b1b.svg)](https://arxiv.org/abs/2509.24291)
 [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Models-orange)](https://huggingface.co/Roytsai27)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Official PyTorch implementation of **"Let LLMs Speak Embedding Languages: Generative Text Embeddings via Iterative Contrastive Refinement"**, accepted at **ICLR 2026**.
 
@@ -38,10 +37,6 @@ We provide pre-trained LoRA adapters for GIRCSE based on different LLM backbones
 ### Installation
 
 1. **Install Poetry**:
-   ```bash
-   curl -sSL [https://install.python-poetry.org](https://install.python-poetry.org) | python3 -
-
-1. **Install Poetry** (if not already installed):
    ```bash
    curl -sSL [https://install.python-poetry.org](https://install.python-poetry.org) | python3 -
 
