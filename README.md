@@ -31,18 +31,6 @@ We provide pre-trained LoRA adapters for GIRCSE based on different LLM backbones
 ## 🛠️ Setup
 
 ### Prerequisites
-- Python 3.10
-- [Poetry](https://python-poetry.org/) for dependency management
-
-### Installation
-
-1. **Install Poetry**:
-   ```bash
-   curl -sSL [https://install.python-poetry.org](https://install.python-poetry.org) | python3 -
-
-## Setup
-
-### Prerequisites
 
 - Python 3.10
 - [Poetry](https://python-poetry.org/) for dependency management
