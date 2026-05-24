@@ -3,7 +3,8 @@ name = "gircse"
 version = "0.1.0"
 description = ""
 authors = [
-    {name = "roytsai27",email = "roytsai27@gmail.com"}
+    {name = "roytsai27",email = "roytsai27@gmail.com"},
+    {name = "energybubu", email = "ivanhoward011878@gmail.com"}
 ]
 readme = "README.md"
 

@@ -5,6 +5,8 @@ from .base import BaseEmbedding
 
 
 class EmbeddingTrainer(BaseEmbedding):
+    """Base trainer for contrastive embedding learning.."""
+
     def __init__(
         self,
         contrasitve_temperature=0.02,
@@ -49,6 +51,8 @@ class EmbeddingTrainer(BaseEmbedding):
 
 
 class MeanPoolingEmbeddingTrainer(EmbeddingTrainer):
+    """Trainer that pools token hidden states with a masked mean."""
+
     def __init__(self, pooling_method="last", **kwargs):
         super().__init__(**kwargs)
         self.pooling_method = pooling_method
@@ -67,6 +71,8 @@ class MeanPoolingEmbeddingTrainer(EmbeddingTrainer):
 
 
 class BaseReasoningTrainer(EmbeddingTrainer):
+    """Trainer for GIRCSE training."""
+
     def __init__(
         self,
         logit_temperature=1,
